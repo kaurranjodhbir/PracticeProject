@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AllTest">
+  <test name="NegtiveTest">
+
+      <classes>
+      <class name="herokuapp.com.NegtiveTest"/>
+      </classes>
+  </test> <!-- Test --> 
+   
+  <test name="PasitiveTest">    
+    <classes>
+       <class name="herokuapp.com.PasitiveTest"/>
+    </classes>
+     
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
