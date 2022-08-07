@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-07T22:17:27 IST" name="AllTest" finished-at="2022-08-07T22:18:22 IST" duration-ms="55446">
+  <suite started-at="2022-08-07T23:32:50 IST" name="AllTest" finished-at="2022-08-07T23:34:08 IST" duration-ms="78183">
     <groups>
+      <group name="positiveTest">
+        <method signature="LoginTest.positiveTest()[pri:0, instance:herokuapp.com.LoginTest@7b98f307]" name="positiveTest" class="herokuapp.com.LoginTest"/>
+      </group> <!-- positiveTest -->
     </groups>
-    <test started-at="2022-08-07T22:17:27 IST" name="incorrectPasswordTest" finished-at="2022-08-07T22:17:56 IST" duration-ms="29506">
-      <class name="herokuapp.com.NegtivetestWithParameter">
-        <test-method signature="negtiveTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:herokuapp.com.NegtivetestWithParameter@4567f35d]" started-at="2022-08-07T22:17:27 IST" name="negtiveTest" finished-at="2022-08-07T22:17:56 IST" duration-ms="29436" status="PASS">
+    <test started-at="2022-08-07T23:32:50 IST" name="incorrectPasswordTest" finished-at="2022-08-07T23:33:34 IST" duration-ms="44224">
+      <class name="herokuapp.com.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:herokuapp.com.LoginTest@2a798d51]" started-at="2022-08-07T23:32:50 IST" name="setup" finished-at="2022-08-07T23:32:55 IST" duration-ms="5099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="negtiveTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:herokuapp.com.LoginTest@2a798d51]" started-at="2022-08-07T23:32:55 IST" name="negtiveTest" finished-at="2022-08-07T23:33:34 IST" duration-ms="38753" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,11 +35,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negtiveTest -->
-      </class> <!-- herokuapp.com.NegtivetestWithParameter -->
+        <test-method is-config="true" signature="shutBrowser()[pri:0, instance:herokuapp.com.LoginTest@2a798d51]" started-at="2022-08-07T23:33:34 IST" name="shutBrowser" finished-at="2022-08-07T23:33:34 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutBrowser -->
+      </class> <!-- herokuapp.com.LoginTest -->
     </test> <!-- incorrectPasswordTest -->
-    <test started-at="2022-08-07T22:17:57 IST" name="incorrectUsernameTest" finished-at="2022-08-07T22:18:22 IST" duration-ms="25885">
+    <test started-at="2022-08-07T23:33:34 IST" name="incorrectUsernameTest" finished-at="2022-08-07T23:33:42 IST" duration-ms="7460">
       <class name="herokuapp.com.NegtivetestWithParameter">
-        <test-method signature="negtiveTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:herokuapp.com.NegtivetestWithParameter@130d63be]" started-at="2022-08-07T22:17:57 IST" name="negtiveTest" finished-at="2022-08-07T22:18:22 IST" duration-ms="25878" status="PASS">
+        <test-method signature="negtiveTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:herokuapp.com.NegtivetestWithParameter@76505305]" started-at="2022-08-07T23:33:34 IST" name="negtiveTest" finished-at="2022-08-07T23:33:42 IST" duration-ms="7453" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,5 +66,17 @@
         </test-method> <!-- negtiveTest -->
       </class> <!-- herokuapp.com.NegtivetestWithParameter -->
     </test> <!-- incorrectUsernameTest -->
+    <test started-at="2022-08-07T23:33:42 IST" name="PasitiveTest" finished-at="2022-08-07T23:34:08 IST" duration-ms="26426">
+      <class name="herokuapp.com.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:herokuapp.com.LoginTest@7b98f307]" started-at="2022-08-07T23:33:42 IST" name="setup" finished-at="2022-08-07T23:33:44 IST" duration-ms="2334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="positiveTest()[pri:0, instance:herokuapp.com.LoginTest@7b98f307]" started-at="2022-08-07T23:33:44 IST" name="positiveTest" finished-at="2022-08-07T23:34:08 IST" duration-ms="24077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveTest -->
+      </class> <!-- herokuapp.com.LoginTest -->
+    </test> <!-- PasitiveTest -->
   </suite> <!-- AllTest -->
 </testng-results>
